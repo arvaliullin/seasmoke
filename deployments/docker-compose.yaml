@@ -1,0 +1,14 @@
+services:
+  seasmoke:
+    build:
+      context: ..
+      dockerfile: docker/seasmoke.Dockerfile
+    container_name: seasmoke
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:3000/api/health"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped

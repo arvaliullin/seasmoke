@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>SeaSmoke</Name>
+    <Version>0.1.0</Version>
+    <Title>SeaSmoke Setup</Title>
+    <Publisher>SeaSmoke</Publisher>
+    <ProductUrl>http://seasmoke.local:3000</ProductUrl>
+    <StartMenuDir>SeaSmoke</StartMenuDir>
+    <TargetDir>@ApplicationsDir@/SeaSmoke</TargetDir>
+    <AllowNonAsciiCharacters>true</AllowNonAsciiCharacters>
+    <WizardStyle>Modern</WizardStyle>
+</Installer>

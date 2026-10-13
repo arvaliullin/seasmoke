@@ -1,0 +1,9 @@
+.git
+.cursor
+target
+build
+web/node_modules
+web/dist
+desktop/build
+desktop/dist
+.env

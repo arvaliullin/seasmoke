@@ -1,0 +1,18 @@
+.app {
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 48px 24px;
+}
+
+.section {
+  width: min(560px, 100%);
+  text-align: left;
+}
+
+.job {
+  padding-top: 4px;
+}
+
+.mono {
+  font-variant-numeric: tabular-nums;
+}

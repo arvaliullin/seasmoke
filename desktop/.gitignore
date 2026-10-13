@@ -1,0 +1,54 @@
+# Build & packaging
+/build/
+/dist/
+/out/
+/cmake-build-*/
+/installer/packages/com.seasmoke.app/data/*
+!/installer/packages/com.seasmoke.app/data/.gitkeep
+
+# Qt Creator / IDE
+.qtcreator/
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.autosave
+.vscode/
+.idea/
+*.code-workspace
+
+# clangd / language servers / QML LS
+.cache/
+compile_commands.json
+.qmlls.ini
+
+# Qt / moc generated (if they ever appear outside build/)
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*_qmltyperegistrations.cpp
+*.qmlc
+*.jsc
+
+# Binaries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+
+# OS junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
